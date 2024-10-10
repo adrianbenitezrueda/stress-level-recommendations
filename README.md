@@ -22,7 +22,7 @@ The machine learning model and data processing pipeline are part of the original
 
 1. Clone this repository:
     ```bash
-    git clone <url-of-this-repository>](https://github.com/adrianbenitezrueda/stress-level-recommendations-streamlit-app.git
+    git clone https://github.com/adrianbenitezrueda/stress-level-recommendations-streamlit-app.git
 )
     ```
 
