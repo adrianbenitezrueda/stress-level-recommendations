@@ -1,4 +1,5 @@
 # Streamlit App for Stress Level Prediction
+![App gif](img/fast_video_resized.gif)
 
 This repository hosts the Streamlit application for predicting stress levels based on various health and lifestyle factors. The app uses a machine learning model developed in the original project.
 
