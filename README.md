@@ -22,7 +22,8 @@ The machine learning model and data processing pipeline are part of the original
 
 1. Clone this repository:
     ```bash
-    git clone <url-of-this-repository>
+    git clone <url-of-this-repository>](https://github.com/adrianbenitezrueda/stress-level-recommendations-streamlit-app.git
+)
     ```
 
 2. Navigate to the directory:
@@ -37,7 +38,7 @@ The machine learning model and data processing pipeline are part of the original
 
 4. Run the Streamlit app:
     ```bash
-    streamlit run app.py
+    streamlit run streamlit_app.py
     ```
 
 ## How to Use
@@ -49,5 +50,4 @@ The machine learning model and data processing pipeline are part of the original
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-- Original project developed by [Adrián Benítez Rueda](https://github.com/adrianbenitezrueda)
-- Collaborators: Saraluz Elechiguerra, José Miguel Sánchez
+- Original project developed by [Adrián Benítez Rueda](https://github.com/adrianbenitezrueda), José Miguel Sánchez and Saraluz Elechiguerra.
