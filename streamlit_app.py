@@ -25,8 +25,8 @@ texts = {
     }
 }
 
-# Language selection
-language = st.selectbox('Elige tu idioma / Choose your language:', ('es', 'en'))
+# Language selection in the sidebar
+language = st.sidebar.selectbox('Elige tu idioma / Choose your language:', ('es', 'en'))
 
 # Get texts based on selected language
 text = texts[language]
@@ -55,7 +55,7 @@ st.title(text['title'])
 # Application description
 st.write(text['description'])
 
-# Form to input features
+# Sidebar header for feature input
 st.sidebar.header(text['sidebar_header'])
 
 # Function to collect user input
