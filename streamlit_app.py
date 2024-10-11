@@ -116,10 +116,10 @@ input_df = input_df[X.columns]
 # Prediction
 if st.button('Predict'):
     prediction = gbr.predict(input_df)
-    st.subheader('Stress Level Prediction')
-    st.write(f'Your stress level based on the input data is: {np.round(prediction[0], 2)}')
+    st.subheader('Your stress level prediction')
+    st.write(f'Based on the data you entered, your level of stress is: {np.round(prediction[0], 2)}.')
 
     # Display recommendation based on stress level
     recommendation = get_recommendation(prediction[0])
-    st.subheader('Recommendations')
+    st.subheader('Potential recommendations')
     st.write(recommendation)
