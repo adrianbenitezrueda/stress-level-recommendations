@@ -1,19 +1,54 @@
-# 🎈 Blank app template
+# Streamlit App for Stress Level Prediction
+![App gif](img/fast_video_resized.gif)
 
-A simple Streamlit app template for you to modify!
+This repository hosts the Streamlit application for predicting stress levels based on various health and lifestyle factors. The app uses a machine learning model developed in the original project.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Original Project
+The machine learning model and data processing pipeline are part of the original project, which you can find here: [Original ML Project Repository](https://github.com/adrianbenitezrueda/ml-project).
 
-### How to run it on your own machine
+## Project Members
 
-1. Install the requirements
+| Name                | Background                   | Contact   |
+|---------------------|-----------------------------|-----------|
+| Adrián Benítez      | Graphic Design & Future Data Analyst | [LinkedIn](https://www.linkedin.com) |
+| Saraluz Elechiguerra| Consultant & Future Data Analyst     | [LinkedIn](https://www.linkedin.com) |
+| José Miguel Sánchez | Recruiter & Future Data Analyst     | [LinkedIn](https://www.linkedin.com) |
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Features
+- Interactive interface for users to input health and lifestyle data.
+- Real-time stress level prediction based on the trained model.
+- Visualizations and insights provided based on the user's inputs.
 
-2. Run the app
+## Setup and Installation
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/adrianbenitezrueda/stress-level-recommendations-streamlit-app.git
+)
+    ```
+
+2. Navigate to the directory:
+    ```bash
+    cd streamlit-app
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the Streamlit app:
+    ```bash
+    streamlit run streamlit_app.py
+    ```
+
+## How to Use
+1. Launch the Streamlit app using the command above, or access it directly [here](https://stress-level-recommendations.streamlit.app).
+2. Enter the required health and lifestyle information in the app interface.
+3. The app will predict your stress level based on the input and provide visual insights.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- Original project developed by [Adrián Benítez Rueda](https://github.com/adrianbenitezrueda), José Miguel Sánchez and Saraluz Elechiguerra.
